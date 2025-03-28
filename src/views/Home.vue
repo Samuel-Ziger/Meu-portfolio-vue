@@ -10,7 +10,7 @@
           <div class="col-12 col-md-12 col-lg-12 col-xl-6 intro-description">
             <h2>
               Criação
-              <span class="color-red">de sites </span> profissionais 
+              <span class="color-red">de sites </span> profissionais
             </h2>
             <p>
               ✅ Desenvolvimento Web: Criação de sites e sistemas
@@ -667,7 +667,7 @@
         <div class="row">
           <div class="col-12 d-flex flex-column align-items-center">
             <h2 class="text-center">
-              Precisa de um webmaster em Pau ou Tarbes para ajudar você com seu
+              Precisa de um web-site ou Sistemas para ajudar você com seu
               projeto profissional?
             </h2>
             <a

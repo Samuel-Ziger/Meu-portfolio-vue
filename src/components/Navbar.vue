@@ -1,18 +1,44 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <nav class="navbar">
     <ul id="nav-list">
-      <li @click="$emit('toogle-sidebar')"><i class="bi bi-person-bounding-box"></i> <span>Profil</span></li>
-      <li @click="navigate($event)" data-name="Home"><i class="bi bi-house"></i> <span>Accueil</span></li>
-      <li @click="navigate($event)" data-name="Curriculum"><i class="bi bi-ui-checks"></i> <span>Curriculum</span></li>
-      <li @click="navigate($event)" data-name="Source"><i class="bi bi-code-slash"></i> <span>Sources</span></li>
-      <li @click="navigate($event)" data-name="Contact"><i class="bi bi-envelope"></i> <span>Contact</span></li>
+      <li @click="$emit('toogle-sidebar')">
+        <i class="bi bi-person-bounding-box"></i> <span> Perfil</span>
+      </li>
+      <li @click="navigate($event)" data-name="Home">
+        <i class="bi bi-house"></i> <span>
+          Bem-vindo</span>
+      </li>
+      <li @click="navigate($event)" data-name="Curriculum">
+        <i class="bi bi-ui-checks"></i> <span>Currículo</span>
+      </li>
+      <li @click="navigate($event)" data-name="Source">
+        <i class="bi bi-code-slash"></i> <span>Fontes</span>
+      </li>
+      <li @click="navigate($event)" data-name="Contact">
+        <i class="bi bi-envelope"></i> <span>Contato</span>
+      </li>
       <li class="break"></li>
-      <li><a href="https://jagullo.fr/blog/" target="_blank"><i class="bi bi-wordpress"></i> <span>Blog</span></a></li>
-      <li><a href="https://github.com/julienagullo" target="_blank"><i class="bi bi-github"></i> <span>Github</span></a></li>
+      <li>
+        <a href="https://jagullo.fr/blog/" target="_blank"
+          ><i class="bi bi-wordpress"></i> <span>Blogue</span></a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/julienagullo" target="_blank"
+          ><i class="bi bi-github"></i> <span>Github</span></a
+        >
+      </li>
     </ul>
     <div class="form-check form-control-lg form-switch">
-      <input type="checkbox" class="form-check-input" id="darkMode" @change="$emit('toggle-darkmode')">
-      <label class="form-check-label" for="darkMode"><i class="bi bi-moon-fill"></i></label>
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="darkMode"
+        @change="$emit('toggle-darkmode')" />
+      <label class="form-check-label" for="darkMode"
+        ><i class="bi bi-moon-fill"></i
+      ></label>
     </div>
     <p class="brand">jagullo.fr</p>
   </nav>
@@ -31,7 +57,8 @@ export default {
   },
   methods: {
     init() {
-      document.getElementsByClassName('navbar')[0].style.height = window.innerHeight + 'px'
+      document.getElementsByClassName('navbar')[0].style.height =
+        window.innerHeight + 'px'
     },
     navigate(e) {
       const name = e.target.dataset.name
@@ -61,7 +88,9 @@ export default {
       }
     },
     sidebarIcon(open) {
-      let icon = document.getElementById('nav-list').getElementsByClassName('bi-person-bounding-box')[0]
+      let icon = document
+        .getElementById('nav-list')
+        .getElementsByClassName('bi-person-bounding-box')[0]
       if (open) {
         icon.classList.add('color-orange')
       } else {
@@ -128,7 +157,8 @@ nav.navbar {
     li:not(.break):hover,
     li.actived {
       background-color: #2b2e48;
-      i, span {
+      i,
+      span {
         color: $color-orange;
       }
     }
