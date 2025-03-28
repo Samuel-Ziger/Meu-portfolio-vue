@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.canonical %>">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.description %>">
+    <meta property="og:site_name" content="jagullo.fr">
+    <meta property="og:url" content="https://jagullo.fr/">
+    <meta property="og:image" content="<%= BASE_URL %>static/opengraph-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+
+    <link rel="icon" href="<%= BASE_URL %>static/favicon.png">
+    <link rel="apple-touch-icon" href="<%= BASE_URL %>static/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Open+Sans:wght@400;600&display=swap">
+    <script>
+      const mode = '<%= process.env.NODE_ENV %>';
+      if (mode === 'production') {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JLQLPG8D93');
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>Désolé mais <%= htmlWebpackPlugin.options.title %> ne fonctionne pas correctement sans Javascript. Veuillez activer le Javascript dans votre navigateur pour continuer.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "jagullo.fr",
+        "url": "https://jagullo.fr/",
+        "abstract": "<%= htmlWebpackPlugin.options.description %>",
+        "license": "https://github.com/julienagullo/portfolio-vue/blob/master/LICENSE.md",
+        "usageInfo": "https://github.com/julienagullo/portfolio-vue/blob/master/README.md",
+        "author": {
+          "@type": "Organization",
+          "name": "jagullo.fr",
+          "url": "https://jagullo.fr/"
+        }
+      }
+    </script>
+  </body>
+</html>
