@@ -20,11 +20,6 @@
       </li>
       <li class="break"></li>
       <li>
-        <a href="https://jagullo.fr/blog/" target="_blank"
-          ><i class="bi bi-wordpress"></i> <span>Blogue</span></a
-        >
-      </li>
-      <li>
         <a href="https://github.com/Samuel-Ziger" target="_blank"
           ><i class="bi bi-github"></i> <span>Github</span></a
         >
