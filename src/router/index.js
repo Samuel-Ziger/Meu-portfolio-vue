@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-const siteUrl = 'https://jagullo.fr'
+const siteUrl = 'https://meu-portfolio-vue-chi.vercel.app/'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     meta: {
-      title: 'Webmaster et développeur web sur Pau et Tarbes | jagullo.fr',
-      description: 'Bienvenue sur mon site Internet présentant mes travaux dans le domaine du web, du développement, du graphisme et de la communication sur Pau et Tarbes.',
+      title: 'Meu portfolio | Samuel.ziger',
+      description: 'Meu portifolio com meus projetos e experiências profissionais na área de desenvolvimento web, design e programação.',
     },
     component: () => import('../views/Home.vue'),
   },
@@ -16,8 +16,8 @@ const routes = [
     path: '/curriculum',
     name: 'Curriculum',
     meta: {
-      title: 'Expériences et projets professionnels | jagullo.fr',
-      description: 'Découvrir mon curriculum et l\'ensemble de mes projets dans le domaine du web, du design et de la programmation sur Pau et Tarbes.',
+      title: 'Meu currículo | Samuel.ziger',
+      description: 'Um resumo da minha trajetória profissional, com experiências e habilidades adquiridas ao longo do tempo.',
     },
     component: () => import('../views/Curriculum.vue'),
   },
@@ -25,8 +25,8 @@ const routes = [
     path: '/open-source',
     name: 'Source',
     meta: {
-      title: 'Projets open-sources en développement web | jagullo.fr',
-      description: 'Découvrir tous mes projets open sources pour le développement web et particulièrement avec les frameworks Vue.js et jQuery.',
+      title: 'Meus projetos open source | Samuel.ziger',
+      description: 'Projetos open source que desenvolvi e compartilhei com a comunidade, contribuindo para o avanço do conhecimento e da tecnologia.',
     },
     component: () => import('../views/Source.vue'),
   },
@@ -34,8 +34,8 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     meta: {
-      title: 'Demande de contact pour du développement web | jagullo.fr',
-      description: 'Contactez-moi pour toute demande de renseignements, de conseils ou de devis en conception de site Internet sur Pau et Tarbes.',
+      title: 'Suas dúvidas | Samuel.ziger',
+      description: 'Entre em contato comigo para tirar suas dúvidas ou discutir sobre projetos e oportunidades de colaboração.',
     },
     component: () => import('../views/Contact.vue'),
   },
@@ -43,8 +43,8 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     meta: {
-      title: 'Page non trouvée | jagullo.fr',
-      description: 'Désolé la page demandée n\'existe pas.',
+      title: 'Página não encontrada| Samuel.ziger',
+      description: 'Essa página não existe | Samuel.ziger',
     },
     component: () => import('../views/NotFound.vue'),
   },
