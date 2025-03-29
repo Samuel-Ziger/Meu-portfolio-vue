@@ -25,7 +25,7 @@
         >
       </li>
       <li>
-        <a href="https://github.com/julienagullo" target="_blank"
+        <a href="https://github.com/Samuel-Ziger" target="_blank"
           ><i class="bi bi-github"></i> <span>Github</span></a
         >
       </li>

@@ -236,13 +236,13 @@
               <br /><br />
               <span>
                 Este site constitui uma obra da qual <b>Sr Samuel.ziger</b> é
-                autor, nos termos dos artigos L.111.1 e seguintes. do Código de
-                Propriedade Intelectual. Todo o código-fonte do site está
-                disponível sob a <b>Licença do MIT</b> na plataforma Github,
-                exceto as imagens do site. As fotografias, textos, slogans,
-                desenhos, imagens, sequências animadas com ou sem som, bem como
-                todas as obras integradas no site são propriedade do autor ou de
-                terceiros que autorizaram a sua utilização.
+                autor do Código de Propriedade Intelectual. Todo o código-fonte
+                do site está disponível sob a <b>Licença do MIT</b> na
+                plataforma Github, exceto as imagens do site. As fotografias,
+                textos, slogans, desenhos, imagens, sequências animadas com ou
+                sem som, bem como todas as obras integradas no site são
+                propriedade do autor ou de terceiros que autorizaram a sua
+                utilização.
               </span>
             </p>
           </div>
