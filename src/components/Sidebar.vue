@@ -67,6 +67,16 @@
         <span class="title">Esporte</span><br />
         Automobilismo, Corrida
       </p>
+      <h2>Download</h2>
+      <a
+        href="/static/cv-samuel-henryk.pdf"
+        rel="nofollow noreferrer"
+        target="_blank"
+        class="btn btn-primary btn-cv"
+        title="Baixar CV em PDF"
+        download="cv-samuel-henryk.pdf"
+        ><i class="bi bi-download"></i> Baixar CV</a
+      >
     </div>
   </div>
 </template>
@@ -231,9 +241,23 @@ export default {
       text-transform: uppercase;
       background-color: $color-blue;
       transition: background-color 200ms ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px;
+      border-radius: 4px;
+      color: white;
+      text-decoration: none;
+      
+      i {
+        font-size: 1.6rem;
+      }
     }
     .btn:hover {
       background-color: $color-blue-hover;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
   }
 }
