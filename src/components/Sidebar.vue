@@ -150,7 +150,7 @@ export default {
 <style scoped lang="scss">
 @import 'src/assets/scss/variables';
 #sidebar {
-  position: absolute;
+  position: fixed;
   width: 325px;
   top: 0;
   left: 0;
@@ -164,9 +164,9 @@ export default {
   transform: translateX(-250px);
   transition: transform $delay-anim ease-in-out;
   box-shadow: 9px 0 11px rgba(0, 0, 0, 0.15);
-  z-index: 999;
+  z-index: 9999;
   &.open {
-    transform: translateX(175px);
+    transform: translateX(0);
   }
   .sidebar-header {
     height: 200px;
