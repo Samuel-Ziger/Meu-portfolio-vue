@@ -37,7 +37,6 @@
         Git, GitKraken, GitHub, SEO e Otimização de Sites<br />
         WordPress, WooCommerce, PrestaShop<br />
         Cibersegurança e Redes, Yourtext.guru<br />
-        Adobe Photoshop, Illustrator, InDesign<br />
         Gestão de Projetos e Versionamento<br />
         <strong>Ferramentas</strong><br />
         Edição & Desenvolvimento: PhpStorm, VS Code, Postman, phpMyAdmin<br />
