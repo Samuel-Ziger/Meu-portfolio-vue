@@ -264,14 +264,29 @@ export default {
 /* Responsive */
 @media (max-width: 576px) {
   #sidebar {
+    width: 280px;
+    transform: translateX(-280px);
     &.open {
-      transform: translateX(40px);
+      transform: translateX(0);
+    }
+    .sidebar-header {
+      height: 180px;
+      .photo {
+        width: 150px;
+        img {
+          width: 140px;
+        }
+      }
     }
   }
 }
 @media (max-width: 365px) {
   #sidebar {
-    width: calc(100% - 40px);
+    width: 260px;
+    transform: translateX(-260px);
+    &.open {
+      transform: translateX(0);
+    }
   }
 }
 </style>
