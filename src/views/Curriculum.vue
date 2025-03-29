@@ -1,6 +1,6 @@
 <template>
   <div id="curriculum" class="content">
-    <h1>Curriculum vitae</h1>
+    <h1>Currículo Samuel</h1>
     <hr class="hr-gray" />
     <section
       v-for="category of projects"
