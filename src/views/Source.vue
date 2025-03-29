@@ -1,36 +1,92 @@
 <template>
   <div id="source" class="content">
-    <h1>Projets open source</h1>
+    <h1>Projetos de código aberto</h1>
     <hr class="hr-gray" />
-    <section class="project twig-request">
-      <h2>Twig Request</h2>
-      <img src="~@/assets/img/source-symfony.png" class="logo" width="100" height="25" alt="Symfony">
-      <img src="~@/assets/img/source-symfony.dark.png" class="logo dark" width="100" height="25" alt="Symfony">
-      <p>Extension Twig pour Symfony ajoutant de nouvelles fonctions sur l'objet requête pour les templates.</p>
-      <a href="https://github.com/julienagullo/twig-request" target="_blank" class="btn btn-primary" title="Twig Request sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+    <section class="project cookie-wall">
+      <h2>Phot Now</h2>
+      <span class="archived">Arquivo</span>
+      <img
+        src="~@/assets/img/photo-title.png"
+        class="logo"
+        width="102"
+        height="25"
+        alt="jQuery write less, do more" />
+      <img
+        src="~@/assets/img/photo-title.png"
+        class="logo dark"
+        width="102"
+        height="25"
+        alt="jQuery write less, do more" />
+      <p>
+        Criação de um site para a Photo Now, com recursos de navegação entre
+        páginas e integração de sistemas de pagamento via API.
+      </p>
+      <a
+        href="https://github.com/Samuel-Ziger/Site-Photo-Now.git"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet cookieWall sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
+      <a
+        href="https://site-photo-now.web.app/"
+        target="_blank"
+        class="btn btn-primary"
+        title="Librairie cookieWall pour développeur web"
+        ><i class="bi bi-window"></i> Ver site</a
+      >
     </section>
     <section class="project portfolio-vue">
       <h2>Portfolio Vue</h2>
-      <img src="~@/assets/img/source-vuejs.png" class="logo" width="65" height="25" alt="Vuejs">
-      <img src="~@/assets/img/source-vuejs.dark.png" class="logo dark" width="65" height="25" alt="Vuejs">
-      <p>Code source de ce portfolio en ligne réalisé avec Vuejs et Bootstrap pour découvrir ce framework JavaScript.</p>
-      <a href="https://github.com/julienagullo/portfolio-vue" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
+      <img
+        src="~@/assets/img/source-vuejs.png"
+        class="logo"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <img
+        src="~@/assets/img/source-vuejs.dark.png"
+        class="logo dark"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <p>
+        Código-fonte deste portfólio online criado com Vuejs e Bootstrap para
+        descobrir este framework JavaScript.
+      </p>
+      <a
+        href="https://github.com/Samuel-Ziger/Meu-portfolio-vue.git"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet rwdKit sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
     </section>
-    <section class="project cookie-wall">
-      <h2>cookieWall</h2> <span class="archived">archivé</span>
-      <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
-      <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
-      <p>Librairie jQuery servant à charger ou non Google Analytics par un modal de consentement sur son site Internet.</p>
-      <a href="https://github.com/julienagullo/cookies-consent" target="_blank" class="btn btn-primary" title="Projet cookieWall sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://open-source.jagullo.fr/cookie-wall/" target="_blank" class="btn btn-primary" title="Librairie cookieWall pour développeur web"><i class="bi bi-window"></i> Démo</a>
-    </section>
-    <section class="project rwdkit">
-      <h2>rwdKit</h2> <span class="archived">archivé</span>
-      <img src="~@/assets/img/source-jquery.png" class="logo" width="102" height="25" alt="jQuery write less, do more">
-      <img src="~@/assets/img/source-jquery.dark.png" class="logo dark" width="102" height="25" alt="jQuery write less, do more">
-      <p>Librairie jQuery facilitant le développement d'interface responsive en affichant le nom du breakpoint courant.</p>
-      <a href="https://github.com/julienagullo/rwdKit" target="_blank" class="btn btn-primary" title="Projet rwdKit sur Github"><i class="bi bi-github"></i> Voir le projet</a>
-      <a href="https://open-source.jagullo.fr/rwdkit/" target="_blank" class="btn btn-primary" title="Librairie rwdKit pour développeur web"><i class="bi bi-window"></i> Démo</a>
+    <section class="project portfolio-vue">
+      <h2>Sistema de Pontos ( em vue )</h2>
+      <img
+        src="~@/assets/img/source-vuejs.png"
+        class="logo"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <img
+        src="~@/assets/img/source-vuejs.dark.png"
+        class="logo dark"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <p>
+        Código-fonte do projeto de sistema de gerenciamento e registro de
+        funcionário atraves de um sistema de pontos.
+      </p>
+      <a
+        href="https://github.com/Samuel-Ziger/sistema-pontos-clinica.git"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet rwdKit sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
     </section>
   </div>
 </template>
@@ -47,8 +103,15 @@ export default {
     }
   },
   mounted() {
-    this.scrollBar = Scrollbar.init(document.querySelector('#source'), {damping: 0.5})
-    anime({targets: '.content', opacity: 1, duration: 150, easing: 'easeInOutCirc'})
+    this.scrollBar = Scrollbar.init(document.querySelector('#source'), {
+      damping: 0.5,
+    })
+    anime({
+      targets: '.content',
+      opacity: 1,
+      duration: 150,
+      easing: 'easeInOutCirc',
+    })
   },
 }
 </script>
@@ -105,33 +168,37 @@ export default {
       }
     }
     &.portfolio-vue {
-      background: #fafafa url('~@/assets/img/banner-portfoliovue.jpg') no-repeat right center;
+      background: #fafafa url('~@/assets/img/banner-portfoliovue.jpg') no-repeat
+        right center;
       .btn {
         margin-left: 0;
       }
     }
     &.twig-request {
-      background: #fafafa url('~@/assets/img/banner-twigrequest.jpg') no-repeat right center;
+      background: #fafafa url('~@/assets/img/banner-twigrequest.jpg') no-repeat
+        right center;
       .btn {
         margin-left: 0;
       }
     }
     &.cookie-wall {
-      background: #fafafa url('~@/assets/img/banner-cookiewall.jpg') no-repeat right center;
+      background: #fafafa url('~@/assets/img/banner-cookiewall.jpg') no-repeat
+        right center;
     }
     &.rwdkit {
-      background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right center;
+      background: #fafafa url('~@/assets/img/banner-rwdkit.jpg') no-repeat right
+        center;
     }
   }
 }
 /* Responsive */
 @media (max-width: 768px) {
   .content section.project {
-    background: #fafafa!important;
+    background: #fafafa !important;
     .btn {
       display: block;
       width: 100%;
-      margin: 15px 0 0!important;
+      margin: 15px 0 0 !important;
     }
   }
 }
