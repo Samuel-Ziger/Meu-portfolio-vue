@@ -35,7 +35,7 @@
         Desenvolvimento Web (Front-end & Back-end)<br />
         Arquitetura de Software, <br />
         Git, GitKraken, GitHub, SEO e Otimização de Sites<br />
-        WordPress, WooCommerce, PrestaShop<br />
+        WordPress,<br />
         Cibersegurança e Redes, Yourtext.guru<br />
         Gestão de Projetos e Versionamento<br />
         <strong>Ferramentas</strong><br />
