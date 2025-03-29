@@ -209,11 +209,11 @@
               class="align-bottom"
               @click="closeKnowledge('development')"
               itemprop="description">
-              Eu crio sites com WordPress e Woocommerce para ter um site pronto
-              para uso e administrável. Para um site de demonstração ou um
-              aplicativo web, uso os frameworks Vue.js ou Symfony de acordo com
-              suas necessidades. Entre em contato comigo para determinar a
-              tecnologia ideal para seu projeto.
+              Eu crio sites com WordPress e HTML para ter um site pronto para
+              uso e administrável. Para um site de demonstração ou um web, uso o
+              frameworks Vue.js de acordo com suas necessidades. Entre em
+              contato comigo para determinar a tecnologia ideal para seu
+              projeto.
             </p>
             <button
               class="btn btn-primary"
