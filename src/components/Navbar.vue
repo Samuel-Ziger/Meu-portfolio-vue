@@ -40,7 +40,7 @@
         ><i class="bi bi-moon-fill"></i
       ></label>
     </div>
-    <p class="brand">jagullo.fr</p>
+    <p class="brand">Samuel.ziger</p>
   </nav>
 </template>
 

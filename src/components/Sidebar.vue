@@ -67,15 +67,6 @@
         <span class="title">Esporte</span><br />
         Automobilismo, Corrida
       </p>
-      <h2>Download</h2>
-      <a
-        href="/static/cv-jagullo-2024.pdf"
-        rel="nofollow noreferrer"
-        target="_blank"
-        class="btn btn-primary btn-cv"
-        title="Télécharger le CV en PDF"
-        >CV PDF</a
-      >
     </div>
   </div>
 </template>
