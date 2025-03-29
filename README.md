@@ -29,7 +29,6 @@ npm run lint
 ```
 
 
-Bukhārī 52, Sahih Muslim 1599
 ```
 
 
