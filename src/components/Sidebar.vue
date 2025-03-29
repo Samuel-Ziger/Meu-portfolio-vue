@@ -2,12 +2,12 @@
   <div id="sidebar" @mouseenter="showScroll" @mouseleave="hideScroll">
     <div class="sidebar-header">
       <div class="close" @click="close">
-        <button title="Fermer Profil">X</button>
+        <button title="Fechar Perfil">X</button>
       </div>
       <div class="photo">
         <img
           :src="getPhoto()"
-          alt="Développeur web sur Pau, Orthez et Tarbes"
+          alt="Desenvolvedor web"
           width="300"
           height="356" />
       </div>
@@ -105,23 +105,24 @@ export default {
     },
     close() {
       this.open = false
+      this.counter = -1
       document.getElementById('sidebar').classList.remove('open')
       document.getElementsByClassName('wrapper')[0].classList.remove('sidebar')
       this.$emit('open-sidebar', false)
     },
+    openSidebar() {
+      this.open = true
+      this.counter = 1
+      document.getElementById('sidebar').classList.add('open')
+      document.getElementsByClassName('wrapper')[0].classList.add('sidebar')
+      this.$emit('open-sidebar', true)
+    },
     toogle() {
-      this.open = !this.open
-      const sidebar = document.getElementById('sidebar')
-      const wrapper = document.getElementsByClassName('wrapper')[0]
       if (this.open) {
-        this.counter = this.counter >= 6 ? 1 : this.counter + 1
-        wrapper.classList.add('sidebar')
-        sidebar.classList.add('open')
+        this.close()
       } else {
-        wrapper.classList.remove('sidebar')
-        sidebar.classList.remove('open')
+        this.openSidebar()
       }
-      this.$emit('open-sidebar', this.open)
     },
     showScroll() {
       const scrollbar = document
