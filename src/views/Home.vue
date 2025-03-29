@@ -310,20 +310,6 @@
           class="row techno-content"
           itemscope
           itemtype="http://schema.org/OfferCatalog">
-          <h3 itemprop="name"><i class="bi bi-brush"></i> Gráficos</h3>
-          <Techno
-            name="Adobe Photoshop"
-            logo="logo-adobe_photoshop.png"
-            desc="Software de edição de imagens e design gráfico" />
-          <Techno
-            name="Adobe Illustrator"
-            logo="logo-adobe_illustrator.png"
-            desc="Software de edição gráfica para renderização vetorial" />
-        </div>
-        <div
-          class="row techno-content"
-          itemscope
-          itemtype="http://schema.org/OfferCatalog">
           <h3 itemprop="name"><i class="bi bi-window"></i> Desenvolvimento</h3>
           <Techno
             name="PHP"
