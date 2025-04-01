@@ -26,7 +26,7 @@
       </li>
       <li>
         <a href="https://www.linkedin.com/in/samuel-ziger-237524357/" target="_blank"
-          ><i class="bi bi-github"></i> <span>linkedin</span></a
+          ><img src="~@/assets/img/linkedin.png" alt="LinkedIn" class="nav-icon" /> <span>LinkedIn</span></a
         >
       </li>
     </ul>
@@ -140,11 +140,14 @@ nav.navbar {
         color: inherit;
         text-decoration: none;
       }
-      i {
+      i, .nav-icon {
         font-size: 2rem;
         color: #c3c3c3;
         margin: 0 10px 4px 0;
         pointer-events: none;
+        width: 2rem;
+        height: 2rem;
+        object-fit: contain;
       }
       span {
         color: #fff;
@@ -157,7 +160,9 @@ nav.navbar {
     li:not(.break):hover,
     li.actived {
       background-color: #2b2e48;
-      i,
+      i, .nav-icon {
+        color: $color-orange;
+      }
       span {
         color: $color-orange;
       }
