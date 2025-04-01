@@ -26,7 +26,7 @@
       </li>
       <li>
         <a href="https://www.linkedin.com/in/samuel-ziger-237524357/" target="_blank"
-          ><img src="~@/assets/img/linkedin.png" alt="LinkedIn" class="nav-icon" /> <span>LinkedIn</span></a
+          ><img src="~@/assets/img/linkedin.png" alt="LinkedIn" class="nav-icon" /> <span>linkedin</span></a
         >
       </li>
     </ul>
