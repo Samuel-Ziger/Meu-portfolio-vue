@@ -39,8 +39,6 @@
     <section class="project cookie-wall">
       <h2>Meu Portfolio Dev</h2>
       <span class="archived">Arquivo</span>
-      <img src="*" class="logo" width="102" height="25" alt="" />
-      <img src="*" class="logo dark" width="102" height="25" alt="" />
       <p>
         Um site de portfólio pessoal para mostrar meus projetos e habilidades
         como desenvolvedor web. O site é responsivo e otimizado para
