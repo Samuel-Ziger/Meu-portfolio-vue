@@ -24,6 +24,11 @@
           ><i class="bi bi-github"></i> <span>Github</span></a
         >
       </li>
+      <li>
+        <a href="https://www.linkedin.com/in/samuel-ziger-237524357/" target="_blank"
+          ><i class="bi bi-github"></i> <span>linkedin</span></a
+        >
+      </li>
     </ul>
     <div class="form-check form-control-lg form-switch">
       <input
