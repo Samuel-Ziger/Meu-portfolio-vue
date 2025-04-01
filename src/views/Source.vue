@@ -22,6 +22,44 @@
         páginas e integração de sistemas de pagamento via API.
       </p>
       <a
+        href="https://meu-portfolio-developer2.vercel.app/about.html"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet cookieWall sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
+      <a
+        href="https://site-photo-now.web.app/"
+        target="_blank"
+        class="btn btn-primary"
+        title="Librairie cookieWall pour développeur web"
+        ><i class="bi bi-window"></i> Ver site</a
+      >
+    </section>
+    <section class="project cookie-wall">
+      <h2>Meu Portfolio Dev</h2>
+      <span class="archived">Arquivo</span>
+      <img
+        src="*"
+        class="logo"
+        width="102"
+        height="25"
+        alt="jQuery write less, do more" />
+      <img
+        src="*"
+        class="logo dark"
+        width="102"
+        height="25"
+        alt="jQuery write less, do more" />
+      <p>
+        Um site de portfólio pessoal para mostrar meus projetos e habilidades
+        como desenvolvedor web. O site é responsivo e otimizado para
+        dispositivos móveis, com uma interface de usuário moderna e atraente. O
+        portfólio inclui uma seção de projetos, onde os visitantes podem ver
+        exemplos do meu trabalho, bem como uma seção de habilidades, onde
+        destaco minhas
+      </p>
+      <a
         href="https://github.com/Samuel-Ziger/Site-Photo-Now.git"
         target="_blank"
         class="btn btn-primary"
