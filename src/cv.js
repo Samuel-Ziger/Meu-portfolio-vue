@@ -37,8 +37,8 @@ export default {
       },
       {
         date: '2023 - ',
-        title: ' Centro de Inteligência do Exército (CIE)',
-        detail: ' manutenção de redes e computadores',
+        title: ' Gabinete do comandante do exército (CIE)',
+        detail: ' No Gab Cmt Ex Trabelhei dentro do Cie com manutenção de redes e computadores',
       },
       {
         date: '2025 - ',
