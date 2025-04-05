@@ -47,13 +47,13 @@
         src="~@/assets/img/html.png"
         class="logo"
         width="85"
-        height="10"
+        height="30"
         alt="HTML" />
       <img
         src="~@/assets/img/html.png"
         class="logo dark"
         width="85"
-        height="10"
+        height="30"
         alt="HTML" />
       <p>
         Um site de portfólio pessoal para mostrar meus projetos e habilidades
@@ -135,13 +135,13 @@
       <img
         src="~@/assets/img/java.png"
         class="logo"
-        width="85"
+        width="102"
         height="25"
         alt="Vuejs" />
       <img
         src="~@/assets/img/java.png"
         class="logo dark"
-        width="85"
+        width="102"
         height="25"
         alt="Vuejs" />
       <p>
