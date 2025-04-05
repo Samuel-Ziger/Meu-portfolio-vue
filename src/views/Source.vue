@@ -1,3 +1,7 @@
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
 <template>
   <div id="source" class="content">
     <h1>Projetos de código aberto</h1>
@@ -172,8 +176,10 @@ export default {
       damping: 0.5,
     })
     anime({
+      // eslint-disable-next-line prettier/prettier
       targets: '.content',
       opacity: 1,
+      // eslint-disable-next-line prettier/prettier
       duration: 150,
       easing: 'easeInOutCirc',
     })
