@@ -450,15 +450,9 @@
                   <picture>
                     <img
                       src="~@/assets/img/projeto1.png"
-                      srcset="
-                        ~@/assets/img/projeto1.PNG 480w,
-                        ~@/assets/img/projeto1.PNG 960w
-                      "
-                      sizes="(max-width: 767px) 480px, 960px"
-                      width="480"
-                      height="300"
                       class="d-block w-100"
-                      alt="Desenvolvido em Html, Css e JavaScript" />
+                      alt="Projeto 1"
+                    />
                   </picture>
                   <div class="carousel-caption">
                     <h3>
@@ -469,20 +463,13 @@
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
-                // eslint-disable-next-line prettier/prettier
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
                       src="~@/assets/img/projeto2.png"
-                      srcset="
-                        ~@/assets/img/Projeto2.png 480w,
-                        ~@/assets/img/Projeto2.png 960w
-                      "
-                      sizes="(max-width: 767px) 480px, 960px"
-                      width="480"
-                      height="300"
                       class="d-block w-100"
-                      alt="Criação desse mesmo Portifolio " />
+                      alt="Projeto 2"
+                    />
                   </picture>
                   <div class="carousel-caption">
                     <h3>
