@@ -126,6 +126,33 @@
         ><i class="bi bi-github"></i> Veja o Projeto</a
       >
     </section>
+    <section class="project portfolio-vue">
+      <h2>Curso de Java</h2>
+      <img
+        src="~@/assets/img/java.png"
+        class="logo"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <img
+        src="~@/assets/img/java.png"
+        class="logo dark"
+        width="65"
+        height="25"
+        alt="Vuejs" />
+      <p>
+        Código-fonte do curso em java a onde eu mostro meus primeiros passos com
+        a linguagem, com o intuito de ajudar iniciantes a entenderem os
+        conceitos básicos de programação.
+      </p>
+      <a
+        href="https://github.com/Samuel-Ziger/curso-de-java.git"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet rwdKit sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
+    </section>
   </div>
 </template>
 

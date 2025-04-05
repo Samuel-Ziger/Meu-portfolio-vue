@@ -448,38 +448,44 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-foxyz_mob.jpg"
+                      src="~@/assets/img/projeto1.PNG"
                       srcset="
-                        ~@/assets/img/interface-foxyz_mob.jpg 480w,
-                        ~@/assets/img/interface-foxyz.jpg     960w
+                        ~@/assets/img/projeto1.PNG 480w,
+                        ~@/assets/img/projeto1.PNG 960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Développement de logiciel full web en PHP et JavaScript" />
+                      alt="Desenvolvido em Html, Css e JavaScript" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>
+                      Esse Projeto foi desenvolvido em Html, Css e JavaScript.
+                      Sendo meu outro portifolio como foco em algo mais intuitivo e tecnológico.
+                    </h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-armoireplus_mob.jpg"
+                      src="~@/assets/img/Projeto2.PNG"
                       srcset="
-                        ~@/assets/img/interface-armoireplus_mob.jpg 480w,
-                        ~@/assets/img/interface-armoireplus.jpg     960w
+                        ~@/assets/img/Projeto2.PNG 480w,
+                        ~@/assets/img/Projeto2.PNG 960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Création de boutique e-commerce sur Pau avec WordPress et Woocommerce" />
+                      alt="Criação desse mesmo Portifolio " />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>
+                      Sendo o memso portifolio Atual mas nas linguagem feitas em
+                      vue3. sendo algo mias dinâmico e mais detalhado
+                    </h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
