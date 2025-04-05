@@ -47,13 +47,13 @@
         src="~@/assets/img/html.png"
         class="logo"
         width="85"
-        height="30"
+        height="35"
         alt="HTML" />
       <img
         src="~@/assets/img/html.png"
         class="logo dark"
         width="85"
-        height="30"
+        height="35"
         alt="HTML" />
       <p>
         Um site de portfólio pessoal para mostrar meus projetos e habilidades
@@ -136,13 +136,13 @@
         src="~@/assets/img/java.png"
         class="logo"
         width="102"
-        height="35"
+        height="40"
         alt="Vuejs" />
       <img
         src="~@/assets/img/java.png"
         class="logo dark"
         width="102"
-        height="35"
+        height="40"
         alt="Vuejs" />
       <p>
         Código-fonte do curso em java a onde eu mostro meus primeiros passos com
