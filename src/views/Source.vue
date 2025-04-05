@@ -47,13 +47,13 @@
         src="~@/assets/img/html.png"
         class="logo"
         width="85"
-        height="25"
+        height="10"
         alt="HTML" />
       <img
         src="~@/assets/img/html.png"
         class="logo dark"
         width="85"
-        height="25"
+        height="10"
         alt="HTML" />
       <p>
         Um site de portfólio pessoal para mostrar meus projetos e habilidades
