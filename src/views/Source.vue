@@ -46,7 +46,7 @@
       <img
         src="~@/assets/img/html.png"
         class="logo"
-        width="102"
+        width="85"
         height="25"
         alt="HTML" />
       <img
@@ -141,7 +141,7 @@
       <img
         src="~@/assets/img/java.png"
         class="logo dark"
-        width="65"
+        width="85"
         height="25"
         alt="Vuejs" />
       <p>
