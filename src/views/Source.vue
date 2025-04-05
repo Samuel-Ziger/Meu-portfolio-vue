@@ -136,13 +136,13 @@
         src="~@/assets/img/java.png"
         class="logo"
         width="102"
-        height="25"
+        height="35"
         alt="Vuejs" />
       <img
         src="~@/assets/img/java.png"
         class="logo dark"
         width="102"
-        height="25"
+        height="35"
         alt="Vuejs" />
       <p>
         Código-fonte do curso em java a onde eu mostro meus primeiros passos com
