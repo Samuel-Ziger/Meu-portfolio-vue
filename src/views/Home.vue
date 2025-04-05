@@ -449,7 +449,7 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      :src="projeto1"
+                      src="../assets/img/projeto1.png"
                       class="d-block w-100"
                       alt="Projeto 1"
                     />
@@ -466,7 +466,7 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      :src="projeto2"
+                      src="../assets/img/projeto2.png"
                       class="d-block w-100"
                       alt="Projeto 2"
                     />
@@ -674,8 +674,6 @@ import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
 import 'bootstrap/js/dist/carousel'
-import projeto1 from '@/assets/img/projeto1.png'
-import projeto2 from '@/assets/img/projeto2.png'
 
 export default {
   name: 'Home',
@@ -685,9 +683,7 @@ export default {
   data() {
     return {
       posts: [],
-      scrollBar: Scrollbar,
-      projeto1,
-      projeto2
+      scrollBar: Scrollbar
     }
   },
   mounted() {
