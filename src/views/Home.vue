@@ -619,57 +619,11 @@
         </div>
       </div>
     </section>
-    <section class="blog">
-      <div class="container-fluid">
-        <div class="row list-posts">
-          <div class="col-12">
-            <h2>
-              Últimos <span class="color-blue">artigos publicados </span> no
-              blog
-            </h2>
-          </div>
-          <div
-            v-for="post in this.posts"
-            :key="post.id"
-            class="col-12 col-md-6 col-lg-6 col-xl-3 post">
-            <div class="post-content">
-              <h3>{{ post.render_title }}</h3>
-              <h4 class="color-orange">
-                {{ new Date(post.date).toLocaleDateString('fr-fr') }}
-              </h4>
-              <p v-html="post.excerpt.rendered"></p>
-              <a class="btn btn-primary" :href="post.link">Voir l'article</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contact">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 d-flex flex-column align-items-center">
-            <h2 class="text-center">
-              Precisa de um web-site ou Sistemas para ajudar você com seu
-              projeto profissional?
-            </h2>
-            <a
-              href="/contact"
-              class="btn btn-primary"
-              @click.prevent="$emit('navbar-navigate', $event)"
-              data-name="Contact"
-              title="Demande de renseignement pour un webmaster"
-              >entre em contato comigo</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
     <div class="background-mountain"></div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
 import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
@@ -684,7 +638,6 @@ export default {
   },
   data() {
     return {
-      posts: [],
       scrollBar: Scrollbar,
       projeto1,
       projeto2
@@ -700,7 +653,6 @@ export default {
       duration: 150,
       easing: 'easeInOutCirc',
     })
-    this.loadPosts()
   },
   methods: {
     openKnowledge(target) {
@@ -731,26 +683,7 @@ export default {
           element.style.top = 0
         },
       })
-    },
-    loadPosts() {
-      axios
-        .get('https://jagullo.fr/blog/wp-json/wp/v2/posts', {
-          params: {
-            per_page: 4,
-            page: 1,
-          },
-        })
-        .then((response) => {
-          this.posts = response.data
-          for (const post of this.posts) {
-            let title = new DOMParser().parseFromString(
-              post.title.rendered,
-              'text/html'
-            )
-            post.render_title = title.documentElement.textContent
-          }
-        })
-    },
+    }
   },
 }
 </script>
@@ -978,24 +911,6 @@ export default {
           border-radius: 3px;
           background-size: 70%;
           background-color: $color-blue-hover;
-        }
-      }
-    }
-  }
-  section.blog {
-    .post {
-      padding: 0 10px 20px;
-      .post-content {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 1px solid #d7d7d7;
-        background-color: #fafafa;
-        .btn {
-          display: block;
-          margin: auto auto 0;
         }
       }
     }

@@ -323,16 +323,15 @@ export default {
       }
       if (this.valid) {
         axios
-          .post('https://jagullo.fr/mail.php', {
+          .post('https://formspree.io/f/xpzvwkrj', {
             name: this.name,
             society: this.society,
             email: this.email,
             phone: this.phone,
-            message: this.message,
-            submit: 1,
+            message: this.message
           })
           .then((response) => {
-            if (response.data == '1') {
+            if (response.status === 200) {
               this.send = true
               this.error = false
               for (const input of window.form.elements) {
@@ -346,6 +345,10 @@ export default {
               this.send = false
               this.error = true
             }
+          })
+          .catch(() => {
+            this.send = false
+            this.error = true
           })
       }
     },
