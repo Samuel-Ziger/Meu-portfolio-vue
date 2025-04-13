@@ -449,7 +449,7 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      :src="require('@/assets/img/projeto1.png')"
+                      :src="require('')"
                       class="d-block w-100"
                       alt="Projeto 1"
                     />
@@ -466,7 +466,7 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      :src="require('@/assets/img/projeto2.png')"
+                      :src="require('')"
                       class="d-block w-100"
                       alt="Projeto 2"
                     />
