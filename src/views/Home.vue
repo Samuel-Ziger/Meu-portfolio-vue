@@ -69,11 +69,11 @@
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img
-                    src="~@/assets/img/developpement-web.jpg"
+                    src="../assets/img/developpement-web.jpg"
                     width="720"
                     height="400"
                     class="d-block w-100"
-                    alt="Conception de site Internet modulable sur Pau" />
+                    alt="Design de site modular" />
                   <div class="carousel-caption d-block">
                     <h3>Site totalmente modular</h3>
                     <p>Implementação do site por tijolo de software</p>
@@ -81,11 +81,11 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img
-                    src="~@/assets/img/arborescence-site.jpg"
+                    src="../assets/img/arborescence-site.jpg"
                     width="720"
                     height="400"
                     class="d-block w-100"
-                    alt="Étude de l'architecture de votre site sur Tarbes" />
+                    alt="Estudo da arquitetura do seu site" />
                   <div class="carousel-caption d-block">
                     <h3>Arquitetura do seu site</h3>
                     <p>Pensando na estrutura de árvore do seu site</p>
@@ -93,11 +93,11 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <img
-                    src="~@/assets/img/arborescence-page.jpg"
+                    src="../assets/img/arborescence-page.jpg"
                     width="720"
                     height="400"
                     class="d-block w-100"
-                    alt="Intégration html pour desktop et mobile sur Pau" />
+                    alt="Integração HTML para desktop e mobile" />
                   <div class="carousel-caption d-block">
                     <h3>Layout HTML otimizado</h3>
                     <p>Organização de conteúdo para desktop e celular</p>
@@ -172,11 +172,11 @@
             itemscope
             itemtype="http://schema.org/Service">
             <img
-              src="~@/assets/img/img-responsive.png"
+              src="../assets/img/img-responsive.png"
               width="320"
               height="350"
               class="img-fluid"
-              alt="Design responsive de site sur Pau"
+              alt="Design responsivo de sites"
               itemprop="image" />
             <h3 itemprop="name">Design responsivo</h3>
             <p
@@ -199,11 +199,11 @@
             itemscope
             itemtype="http://schema.org/Service">
             <img
-              src="~@/assets/img/img-development.png"
+              src="../assets/img/img-development.png"
               width="350"
               height="350"
               class="img-fluid"
-              alt="Développeur professionnel sur Pau"
+              alt="Desenvolvedor profissional"
               itemprop="image" />
             <h3 itemprop="name">Desenvolvimento</h3>
             <p
@@ -227,11 +227,11 @@
             itemscope
             itemtype="http://schema.org/Service">
             <img
-              src="~@/assets/img/img-writing.png"
+              src="../assets/img/img-writing.png"
               width="350"
               height="350"
               class="img-fluid"
-              alt="Rédaction de contenu optimisé SEO"
+              alt="Redação de conteúdo otimizado para SEO"
               itemprop="image" />
             <h3 itemprop="name">Escrita para web</h3>
             <p
@@ -252,11 +252,11 @@
             itemscope
             itemtype="http://schema.org/Service">
             <img
-              src="~@/assets/img/img-optimization.png"
+              src="../assets/img/img-optimization.png"
               width="350"
               height="350"
               class="img-fluid"
-              alt="Optimisation technique de site"
+              alt="Otimização técnica de sites"
               itemprop="image" />
             <h3 itemprop="name">Otimização</h3>
             <p
@@ -439,10 +439,10 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-mecajetdeau_mob.jpg"
+                      src="../assets/img/interface-mecajetdeau_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-mecajetdeau_mob.jpg 480w,
-                        ~@/assets/img/interface-mecajetdeau.jpg     960w
+                        ../assets/img/interface-mecajetdeau_mob.jpg 480w,
+                        ../assets/img/interface-mecajetdeau.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -458,16 +458,16 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-toulimmo_mob.jpg"
+                      src="../assets/img/interface-toulimmo_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-toulimmo_mob.jpg 480w,
-                        ~@/assets/img/interface-toulimmo.jpg     960w
+                        ../assets/img/interface-toulimmo_mob.jpg 480w,
+                        ../assets/img/interface-toulimmo.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Développeur freelance sur Pau pour la création de site Internet de qualité" />
+                      alt="Desenvolvedor freelance para criação de sites de qualidade" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
@@ -477,16 +477,16 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-textbeans_mob.jpg"
+                      src="../assets/img/interface-textbeans_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-textbeans_mob.jpg 480w,
-                        ~@/assets/img/interface-textbeans.jpg     960w
+                        ../assets/img/interface-textbeans_mob.jpg 480w,
+                        ../assets/img/interface-textbeans.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Webmaster freelance pour du développement web sur Tarbes" />
+                      alt="Webmaster freelance para desenvolvimento web" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
@@ -496,16 +496,16 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-topwings_mob.jpg"
+                      src="../assets/img/interface-topwings_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-topwings_mob.jpg 480w,
-                        ~@/assets/img/interface-topwings.jpg     960w
+                        ../assets/img/interface-topwings_mob.jpg 480w,
+                        ../assets/img/interface-topwings.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="270"
                       class="d-block w-100"
-                      alt="Développeur freelance sur Pau et Tarbes pour application web" />
+                      alt="Desenvolvedor freelance para aplicações web" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
@@ -515,16 +515,16 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-airbusds_mob.jpg"
+                      src="../assets/img/interface-airbusds_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-airbusds_mob.jpg 480w,
-                        ~@/assets/img/interface-airbusds.jpg     960w
+                        ../assets/img/interface-airbusds_mob.jpg 480w,
+                        ../assets/img/interface-airbusds.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Conception d'interface graphique pour web et mobile" />
+                      alt="Design de interface gráfica para web e mobile" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
@@ -534,16 +534,16 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-spherea_mob.jpg"
+                      src="../assets/img/interface-spherea_mob.jpg"
                       srcset="
-                        ~@/assets/img/interface-spherea_mob.jpg 480w,
-                        ~@/assets/img/interface-spherea.jpg     960w
+                        ../assets/img/interface-spherea_mob.jpg 480w,
+                        ../assets/img/interface-spherea.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
                       height="270"
                       class="d-block w-100"
-                      alt="Développeur d'application web et webmaster freelance sur Pau" />
+                      alt="Desenvolvedor de aplicações web e webmaster freelance" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
