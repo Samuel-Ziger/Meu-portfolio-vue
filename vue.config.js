@@ -1,13 +1,24 @@
+const path = require('path');
+
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/' : '',
   chainWebpack: config => {
+    config.resolve.alias
+      .set('@', path.resolve(__dirname, 'src'));
+
     config.module
       .rule('images')
       .test(/\.(png|jpe?g|gif|webp)$/i)
-      .use('file-loader')
-      .loader('file-loader')
+      .use('url-loader')
+      .loader('url-loader')
       .options({
-        name: 'img/[name].[hash:8].[ext]'
+        limit: 8192,
+        fallback: {
+          loader: 'file-loader',
+          options: {
+            name: 'img/[name].[hash:8].[ext]'
+          }
+        }
       });
 
     config.plugin('html')
