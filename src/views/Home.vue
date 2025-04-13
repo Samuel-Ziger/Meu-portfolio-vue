@@ -628,8 +628,8 @@ import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
 import 'bootstrap/js/dist/carousel'
-import projeto1 from '@/assets/img/projeto1.png'
-import projeto2 from '@/assets/img/projeto2.png'
+import projeto1 from '../assets/img/projeto1.png'
+import projeto2 from '../assets/img/projeto2.png'
 
 export default {
   name: 'Home',
