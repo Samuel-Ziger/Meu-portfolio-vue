@@ -408,78 +408,35 @@
                   data-bs-slide-to="0"
                   class="active"
                   aria-current="true"
-                  aria-label="Foxyz"></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselProject"
-                  data-bs-slide-to="1"
-                  aria-label="Armoire Plus"></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselProject"
-                  data-bs-slide-to="2"
                   aria-label="Méca Jet d'Eau"></button>
                 <button
                   type="button"
                   data-bs-target="#carouselProject"
-                  data-bs-slide-to="3"
+                  data-bs-slide-to="1"
                   aria-label="Toul-Immo Rénovation"></button>
                 <button
                   type="button"
                   data-bs-target="#carouselProject"
-                  data-bs-slide-to="4"
+                  data-bs-slide-to="2"
                   aria-label="TextBeans"></button>
                 <button
                   type="button"
                   data-bs-target="#carouselProject"
-                  data-bs-slide-to="5"
+                  data-bs-slide-to="3"
                   aria-label="Topwings"></button>
                 <button
                   type="button"
                   data-bs-target="#carouselProject"
-                  data-bs-slide-to="6"
+                  data-bs-slide-to="4"
                   aria-label="JUICE"></button>
                 <button
                   type="button"
                   data-bs-target="#carouselProject"
-                  data-bs-slide-to="7"
+                  data-bs-slide-to="5"
                   aria-label="U-TEST"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <picture>
-                    <img
-                      :src="projeto1"
-                      class="d-block w-100"
-                      alt="Projeto 1"
-                    />
-                  </picture>
-                  <div class="carousel-caption">
-                    <h3>
-                      Esse Projeto foi desenvolvido em Html, Css e JavaScript.
-                      Sendo meu outro portifolio como foco em algo mais
-                      intuitivo e tecnológico.
-                    </h3>
-                    <p>Direitos autorias sobre o projeto</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
-                  <picture>
-                    <img
-                      :src="projeto2"
-                      class="d-block w-100"
-                      alt="Projeto 2"
-                    />
-                  </picture>
-                  <div class="carousel-caption">
-                    <h3>
-                      Sendo o memso portifolio Atual mas nas linguagem feitas em
-                      vue3. sendo algo mias dinâmico e mais detalhado
-                    </h3>
-                    <p>Direitos autorias sobre o projeto</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
                       src="~@/assets/img/interface-mecajetdeau_mob.jpg"
@@ -491,7 +448,7 @@
                       width="480"
                       height="300"
                       class="d-block w-100"
-                      alt="Développeur sur Pau spécialisé en WordPress et Symfony" />
+                      alt="Desenvolvedor especializado em WordPress e Symfony" />
                   </picture>
                   <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
@@ -628,8 +585,6 @@ import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
 import 'bootstrap/js/dist/carousel'
-import projeto1 from '@/assets/img/projeto1.png'
-import projeto2 from '@/assets/img/projeto2.png'
 
 export default {
   name: 'Home',
@@ -639,8 +594,6 @@ export default {
   data() {
     return {
       scrollBar: Scrollbar,
-      projeto1,
-      projeto2
     }
   },
   mounted() {
