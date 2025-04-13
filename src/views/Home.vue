@@ -451,8 +451,8 @@
                       alt="Desenvolvedor especializado em WordPress e Symfony" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
-                    <p>Direitos autorias sobre o projeto</p>
+                    <h3>Sistema de portfólio desenvolvido em HTML5, CSS3 e JavaScript, com design responsivo, animações interativas e integração de APIs para contato e visualização de projetos</h3>
+                    <p>© Samuel-ziger – Todos os direitos reservado</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
