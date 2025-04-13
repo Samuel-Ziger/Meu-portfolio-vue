@@ -9,16 +9,9 @@ module.exports = {
     config.module
       .rule('images')
       .test(/\.(png|jpe?g|gif|webp)$/i)
-      .use('url-loader')
-      .loader('url-loader')
-      .options({
-        limit: 8192,
-        fallback: {
-          loader: 'file-loader',
-          options: {
-            name: 'img/[name].[hash:8].[ext]'
-          }
-        }
+      .type('asset/resource')
+      .set('generator', {
+        filename: 'img/[name].[hash:8][ext]'
       });
 
     config.plugin('html')
