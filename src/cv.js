@@ -27,13 +27,34 @@ export default {
       {
         date: '01/2024 - 06/2026',
         title: 'Ensiono superior (Tecnólogo)',
-        detail: 'Análise e Desenvolvimento de Sistemas',
+        detail: 'Análise e Desenvolvimento de Sistemas - Estácio-Sá',
       },
       {
         date: '04/2025',
         title:'curso técnico',
-        detail: 'Java COMPLETO Programação Orientada a Objetos + Projetos',
-      }
+        detail: 'Java - mini curso para Iniciantes - Udemy',
+      },
+      {
+        date: '04/2025',
+        title:'curso técnico',
+        detail: 'Java COMPLETO Programação Orientada a Objetos + Projetos - Udemy',
+      },
+      
+      {
+        date: '04/2025',
+        title:'curso técnico',
+        detail: 'Segurança da Informação para Iniciantes na Prática - Udemy',
+      },
+      {
+        date: '04/2025',
+        title:'curso técnico',
+        detail: 'Web-Hacking Técnicas de invasão em Ambientes Web[Pentest] - Udemy',
+      },
+      {
+        date: '05/2025',
+        title:'curso técnico',
+        detail: 'Go (Golang): Explorando a Linguagem do Google - Udemy',
+      },
     ],
   },
   exp: {
@@ -125,6 +146,12 @@ export default {
           date: '2025',
           title: 'Curso de Java',
           detail: 'Um Curso feito em java a onde tem meus primeiros códigos em java contanto com explicações e exemplos de cada código e também com exercícios para praticar o que aprendeu no curso.',
+          images: [],
+        },
+        {
+          date: '2025',
+          title: 'Curso de Golang',
+          detail: 'Um Curso feito em GO a onde tem o curso completo de GO com explicações e exemplos de cada código e também com exercícios para praticar o que aprendeu no curso.',
           images: [],
         },
     ],

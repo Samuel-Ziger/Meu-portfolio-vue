@@ -157,6 +157,31 @@
         ><i class="bi bi-github"></i> Veja o Projeto</a
       >
     </section>
+    <section class="project portfolio-vue">
+      <h2>Curso de Go(Golang)</h2>
+      <img
+        src="~@/assets/img/go-lang.png"
+        class="logo"
+        width="50"
+        height="40"
+        alt="Vuejs" />
+      <img
+        src="~@/assets/img/go-lang.png"
+        class="logo dark"
+        width="50"
+        height="40"
+        alt="Vuejs" />
+      <p>
+        Código-fonte do curso em Go a onde eu mostro aprendizado atráves do curso da udemy.
+      </p>
+      <a
+        href="https://github.com/Samuel-Ziger/curso-de-Go.git"
+        target="_blank"
+        class="btn btn-primary"
+        title="Projet rwdKit sur Github"
+        ><i class="bi bi-github"></i> Veja o Projeto</a
+      >
+    </section>
   </div>
 </template>
 

@@ -449,7 +449,7 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-foxyz.jpg"
+                      :src="projeto1"
                       class="d-block w-100"
                       alt="Projeto 1"
                     />
@@ -466,7 +466,7 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="~@/assets/img/interface-foxyz.jpg"
+                      :src="projeto2"
                       class="d-block w-100"
                       alt="Projeto 2"
                     />
@@ -674,6 +674,8 @@ import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
 import 'bootstrap/js/dist/carousel'
+import projeto1 from '@/assets/img/projeto1.png'
+import projeto2 from '@/assets/img/projeto2.png'
 
 export default {
   name: 'Home',
@@ -683,7 +685,9 @@ export default {
   data() {
     return {
       posts: [],
-      scrollBar: Scrollbar
+      scrollBar: Scrollbar,
+      projeto1,
+      projeto2
     }
   },
   mounted() {
