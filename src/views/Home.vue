@@ -439,10 +439,10 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-mecajetdeau_mob.jpg"
+                      src="../assets/img/eu.gif"
                       srcset="
-                        ../assets/img/interface-mecajetdeau_mob.jpg 480w,
-                        ../assets/img/interface-mecajetdeau.jpg     960w
+                        ../assets/img/eu.gif 480w,
+                        ../assets/img/eu.gif    960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
