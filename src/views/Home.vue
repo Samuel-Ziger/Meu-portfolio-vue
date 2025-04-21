@@ -455,7 +455,7 @@
                     <p>© Samuel-ziger – Todos os direitos reservado</p>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="10000">
+                <!--div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
                       src="../assets/img/interface-toulimmo_mob.jpg"
@@ -550,7 +550,7 @@
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
-              </div>
+              </div-->
               <button
                 class="carousel-control-prev"
                 type="button"
