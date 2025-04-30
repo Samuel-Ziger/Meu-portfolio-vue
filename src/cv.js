@@ -84,7 +84,7 @@ export default {
       },
       {
         date: '2025 - ',
-        title: 'trulogic',
+        title: 'APPdaTurma',
         detail: 'Desenvolvimento web Sistemas (Em java)',
       }
       
