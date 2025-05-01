@@ -55,6 +55,11 @@ export default {
         title:'curso técnico',
         detail: 'Go (Golang): Explorando a Linguagem do Google - Udemy',
       },
+      {
+        date: '05/2025',
+        title:'curso técnico',
+        detail: 'Java Básico  - Curso em Vídeo',
+      },
     ],
   },
   exp: {
