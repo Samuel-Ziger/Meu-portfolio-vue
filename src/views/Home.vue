@@ -439,10 +439,10 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/eu.gif"
+                      src="../assets/img/interface-mecajetdeau_mob.jpg"
                       srcset="
-                        ../assets/img/eu.gif 480w,
-                        ../assets/img/eu.gif    960w
+                        ../assets/img/interface-mecajetdeau_mob.jpg 480w,
+                        ../assets/img/interface-mecajetdeau.jpg     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -451,11 +451,11 @@
                       alt="Desenvolvedor especializado em WordPress e Symfony" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Sistema de portfólio desenvolvido em HTML5, CSS3 e JavaScript, com design responsivo, animações interativas e integração de APIs para contato e visualização de projetos</h3>
-                    <p>© Samuel-ziger – Todos os direitos reservado</p>
+                    <h3>Escreve algo sobre o projeto</h3>
+                    <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
-                <!--div class="carousel-item" data-bs-interval="10000">
+                <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
                       src="../assets/img/interface-toulimmo_mob.jpg"
@@ -550,7 +550,7 @@
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
-              </div-->
+              </div>
               <button
                 class="carousel-control-prev"
                 type="button"
@@ -559,7 +559,7 @@
                 <span
                   class="carousel-control-prev-icon"
                   aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="visually-hidden">Anterior</span>
               </button>
               <button
                 class="carousel-control-next"
@@ -569,7 +569,7 @@
                 <span
                   class="carousel-control-next-icon"
                   aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden">Próximo</span>
               </button>
             </div>
           </div>
