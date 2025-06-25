@@ -451,17 +451,17 @@
                       alt="Desenvolvedor especializado em WordPress e Symfony" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>Meu segundo portfólio pessoal, projetado com ênfase em usabilidade e navegação intuitiva. </h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-toulimmo_mob.jpg"
+                      src="../assets/img/mel1.PNG"
                       srcset="
-                        ../assets/img/interface-toulimmo_mob.jpg 480w,
-                        ../assets/img/interface-toulimmo.jpg     960w
+                        ../assets/img/mel1.PNG,
+                        ../assets/img/mel1.PNG    960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -470,17 +470,17 @@
                       alt="Desenvolvedor freelance para criação de sites de qualidade" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>Design clean e funcional voltado à conversão de visitantes em clientes, com destaque para o trabalho da manicure.</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-textbeans_mob.jpg"
+                      src="../assets/img/portalcatolico.PNG"
                       srcset="
-                        ../assets/img/interface-textbeans_mob.jpg 480w,
-                        ../assets/img/interface-textbeans.jpg     960w
+                        ../assets/img/portalcatolico.PNG,
+                        ../assets/img/portalcatolico.PNG
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -489,7 +489,7 @@
                       alt="Webmaster freelance para desenvolvimento web" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>Projeto com estrutura dinâmica e design responsivo, pensado para entregar conteúdos religiosos de forma clara e acessível.</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
