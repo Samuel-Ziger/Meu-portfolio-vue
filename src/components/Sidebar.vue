@@ -34,7 +34,7 @@
         <span class="title"></span><br />
         Desenvolvimento Web (Front-end & Back-end)<br />
         Arquitetura de Software, <br />
-        Git, GitKraken, GitHub, SEO e Otimização de Sites<br />
+        Git, GitHub, SEO e Otimização de Sites<br />
         WordPress,<br />
         Cibersegurança e Redes, Yourtext.guru<br />
         Gestão de Projetos e Versionamento<br />
@@ -44,9 +44,9 @@
       </p>
       <p class="border-red">
         <span class="title">Linguagens</span><br />
-        PHP, JavaScript, MySQL,<br />
+        JavaScript, MySQL,<br />
         CSS, LESS/SCSS, HTML,<br />
-        Framework :Bootstrap, Vue.js, jQuery<br />
+        Framework :Bootstrap, Vue.js,<br />
         Java
       </p>
       <p class="border-red">

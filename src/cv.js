@@ -159,6 +159,29 @@ export default {
           detail: 'Um Curso feito em GO a onde tem o curso completo de GO com explicações e exemplos de cada código e também com exercícios para praticar o que aprendeu no curso.',
           images: [],
         },
+        {
+          date: '2025',
+          title: 'Portal Católico',
+          detail: 'Um portal dedicado à divulgação de conteúdos católicos, com recursos de interação e compartilhamento<br /> <span class="title">https://portal-catolico-9bb38.web.app/</span>',
+          images: [],
+        },
+        {
+          date: '2025',
+          title: 'English Teacher AI',
+          detail: 'Conheça o English Teacher AI, seu assistente pessoal para aprender inglês. Desenvolvido especialmente para brasileiros, oferece traduções precisas, explicações detalhadas e conversação interativa para acelerar seu aprendizado.<br /> <span class="title">https://english-teacher-ai.vercel.app/</span>',
+          images: [],
+        },
+        {
+          date: '2025',
+          title: 'lovio',
+          detail: 'Plataforma para criar sites de homenagem personalizados com fotos, mensagens e memórias. Celebre vidas, histórias e momentos únicos com carinho, elegância e presença digital eterna.<br /> <span class="title">https://lovioo.web.app/</span>',
+        },
+        {
+          date:'2025',
+          title :'Site Mel',
+          detail: 'Loja online da Mel, manicure especialista em unhas de fibra de vidro. Agende serviços, explore esmaltes exclusivos e kits de cuidados. Beleza, carinho e estilo em cada detalhe das suas mãos<br /> <span class="title">https://unha-production.up.railway.app/</span>',
+        }
+      
     ],
   },
 }
