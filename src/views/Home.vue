@@ -507,7 +507,7 @@
                       class="d-block w-100"
                       alt="Desenvolvedor freelance para aplicações web" />
                   </picture>
-                  <div class="carousel-caption">
+                 <!-- <div class="carousel-caption">
                     <h3>Escreve algo sobre o projeto</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
@@ -571,7 +571,7 @@
                   aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
               </button>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
