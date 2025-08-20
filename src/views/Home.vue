@@ -496,10 +496,10 @@
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-topwings_mob.jpg"
+                      src="../assets/img/javas.png"
                       srcset="
-                        ../assets/img/interface-topwings_mob.jpg 480w,
-                        ../assets/img/interface-topwings.jpg     960w
+                        ../assets/img/javas.png 480w,
+                        ../assets/img/javas.png     960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -507,18 +507,18 @@
                       class="d-block w-100"
                       alt="Desenvolvedor freelance para aplicações web" />
                   </picture>
-                 <!-- <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
-                    <p>Direitos autorias sobre o projeto</p>
+                  <div class="carousel-caption">
+                    <h3>Repositório com códigos do curso de Java, incluindo exemplos práticos, exercícios comentados e projetos didáticos. Aprenda a programar com clareza.   </h3>
+                    <p>Acesso Livre</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-airbusds_mob.jpg"
+                      src="../assets/img/lovio.png"
                       srcset="
-                        ../assets/img/interface-airbusds_mob.jpg 480w,
-                        ../assets/img/interface-airbusds.jpg     960w
+                        ../assets/img/lovio.png 480w,
+                        ../assets/img/lovio.png 960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -527,17 +527,17 @@
                       alt="Design de interface gráfica para web e mobile" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>Plataforma para criar sites de homenagem personalizados com fotos, mensagens e memórias. Celebre vidas, histórias e momentos únicos com carinho, elegância e presença digital eterna</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="10000">
                   <picture>
                     <img
-                      src="../assets/img/interface-spherea_mob.jpg"
+                      src="../assets/img/Iaingles.png"
                       srcset="
-                        ../assets/img/interface-spherea_mob.jpg 480w,
-                        ../assets/img/interface-spherea.jpg     960w
+                        ../assets/img/Iaingles.png 480w,
+                        ../assets/img/Iaingles.png 960w
                       "
                       sizes="(max-width: 767px) 480px, 960px"
                       width="480"
@@ -546,7 +546,7 @@
                       alt="Desenvolvedor de aplicações web e webmaster freelance" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Escreve algo sobre o projeto</h3>
+                    <h3>Conheça o English Teacher AI, seu assistente pessoal para aprender inglês. Desenvolvido especialmente para brasileiros, oferece traduções precisas, explicações detalhadas e conversação interativa para acelerar seu aprendizado.</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
@@ -571,7 +571,7 @@
                   aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
               </button>
-            </div>-->
+            </div>
           </div>
         </div>
       </div>
