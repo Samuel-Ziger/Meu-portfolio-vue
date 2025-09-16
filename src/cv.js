@@ -191,6 +191,12 @@ export default {
         title: 'Site Mel',
         detail: 'E-commerce para manicure especializada em unhas de fibra de vidro.<br /><a href="https://unha-production.up.railway.app/" target="_blank">Acessar Projeto</a>',
       },
+      {
+        date: '2025',
+        title: 'GRIFERG CAMISAS',
+        detail: 'E-commerce especializado em camisas de time oficiais e retrôs. <br /><a href = "https://vitrineprimerg1.web.app/" target="`_blanck"> Acessar Projeto</a>',
+
+      }
     ],
   },
 };
