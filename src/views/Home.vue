@@ -434,6 +434,11 @@
                   data-bs-target="#carouselProject"
                   data-bs-slide-to="5"
                   aria-label="U-TEST"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselProject"
+                  data-bs-slide-to="6"
+                  aria-label="GRIFERGCAMISAS"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
@@ -546,7 +551,26 @@
                       alt="Desenvolvedor de aplicações web e webmaster freelance" />
                   </picture>
                   <div class="carousel-caption">
-                    <h3>Conheça o English Teacher AI, seu assistente pessoal para aprender inglês. Desenvolvido especialmente para brasileiros, oferece traduções precisas, explicações detalhadas e conversação interativa para acelerar seu aprendizado.</h3>
+                    <h3>E-commerce especializado em camisas de time, oferecendo modelos oficiais, retrôs e exclusivos para colecionadores e torcedores apaixonados, com garantia de qualidade, segurança na compra e entrega em todo o Brasil</h3>
+                    <p>Direitos autorias sobre o projeto</p>
+                  </div>
+                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                  <picture>
+                    <img
+                      src="../assets/img/GRIFERGCAMISAS.png"
+                      srcset="
+                        ../assets/img/GRIFERGCAMISAS.png 480w,
+                        ../assets/img/GRIFERGCAMISAS.png 960w
+                      "
+                      sizes="(max-width: 767px) 480px, 960px"
+                      width="480"
+                      height="270"
+                      class="d-block w-100"
+                      alt="E-commerce especializado em camisas de time" />
+                  </picture>
+                  <div class="carousel-caption">
+                    <h3>E-commerce especializado em camisas de time, oferecendo modelos oficiais, retrôs e exclusivos para colecionadores e torcedores apaixonados, com garantia de qualidade, segurança na compra e entrega em todo o Brasil</h3>
                     <p>Direitos autorias sobre o projeto</p>
                   </div>
                 </div>
@@ -584,7 +608,6 @@
 import Scrollbar from 'smooth-scrollbar'
 import anime from 'animejs/lib/anime.es.js'
 import Techno from '@/components/Techno'
-import 'bootstrap/js/dist/carousel'
 
 export default {
   name: 'Home',
