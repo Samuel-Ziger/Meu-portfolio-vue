@@ -31,6 +31,15 @@ const routes = [
     component: () => import('../views/Source.vue'),
   },
   {
+    path: '/certifications',
+    name: 'Certifications',
+    meta: {
+      title: 'Minhas certificações | Samuel.ziger',
+      description: 'Certificações e emblemas profissionais que demonstram minha expertise e compromisso com o aprendizado contínuo.',
+    },
+    component: () => import('../views/Certifications.vue'),
+  },
+  {
     path: '/contact',
     name: 'Contact',
     meta: {

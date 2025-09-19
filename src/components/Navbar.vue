@@ -15,6 +15,9 @@
       <li @click="navigate($event)" data-name="Source">
         <i class="bi bi-code-slash"></i> <span>Fontes</span>
       </li>
+      <li @click="navigate($event)" data-name="Certifications">
+        <i class="bi bi-award"></i> <span>Certificações</span>
+      </li>
       <li @click="navigate($event)" data-name="Contact">
         <i class="bi bi-envelope"></i> <span>Contato</span>
       </li>
