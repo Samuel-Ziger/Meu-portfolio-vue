@@ -46,6 +46,46 @@
                   <span class="certification-provider">Cisco</span>
                   <span class="certification-year">2025</span>
                 </div>
+                <div class="certification-verify">
+                  <a 
+                    href="https://www.credly.com/badges/352e4844-6cdf-4ab4-a772-a73c8beb4da5/public_url" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="btn-verify">
+                    <i class="bi bi-shield-check"></i>
+                    Verificar no Credly
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 certification-item">
+            <div class="certification-card">
+              <img
+                src="../assets/img/introduction-to-cybersecurity.png"
+                alt="Introduction to Cybersecurity"
+                class="certification-image" />
+              <div class="certification-info">
+                <h3>Introduction to Cybersecurity</h3>
+                <p class="certification-description">
+                  Certificação introdutória em cibersegurança, cobrindo os fundamentos da proteção digital, 
+                  identificação de ameaças e melhores práticas de segurança da informação.
+                </p>
+                <div class="certification-meta">
+                  <span class="certification-provider">Cisco</span>
+                  <span class="certification-year">2025</span>
+                </div>
+                <div class="certification-verify">
+                  <a 
+                    href="https://www.credly.com/badges/e55f0d38-59ec-4777-9da0-7bccb9417a95/public_url" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="btn-verify">
+                    <i class="bi bi-shield-check"></i>
+                    Verificar no Credly
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -223,6 +263,7 @@ export default {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          margin-bottom: 15px;
           
           .certification-provider {
             background: $color-orange;
@@ -237,6 +278,38 @@ export default {
             color: #999;
             font-size: 0.9rem;
             font-weight: 500;
+          }
+        }
+        
+        .certification-verify {
+          .btn-verify {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            justify-content: center;
+            
+            &:hover {
+              background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+              transform: translateY(-2px);
+              box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+              color: white;
+              text-decoration: none;
+            }
+            
+            i {
+              font-size: 1rem;
+            }
           }
         }
       }
