@@ -84,10 +84,15 @@ export default {
         title: 'Curso Técnico',
         detail: 'Introdução ao Pentest na Prática - Desec',
       },
-            {
+      {
         date: '09/2025',
         title: 'Curso Técnico',
         detail: 'Curso  Técnico de invasão a redes Sem fio [ Pentest Wireless ] - Udemy',
+      },
+      {
+        data: '10/2025',
+        title: 'Curso Técnico',
+        detail:'Curso Introdução ao Hacking e Pentest 2.0' - Solyd
       },
     ],
   },
