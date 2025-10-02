@@ -92,7 +92,7 @@ export default {
       {
         data: '10/2025',
         title: 'Curso Técnico',
-        detail:'Curso Introdução ao Hacking e Pentest 2.0' - Solyd
+        detail:'Curso Introdução ao Hacking e Pentest 2.0 - Solyd',
       },
     ],
   },
