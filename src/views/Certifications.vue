@@ -90,12 +90,33 @@
             </div>
           </div>
           
-          <!-- Adicione mais certificações aqui conforme necessário -->
           <div class="col-12 col-md-6 col-lg-4 certification-item">
-            <div class="certification-card placeholder">
-              <div class="placeholder-content">
-                <i class="bi bi-plus-circle"></i>
-                <p>Mais certificações em breve...</p>
+            <div class="certification-card">
+              <img
+                src="../assets/img/ethical-hacker.png"
+                alt="Ethical Hacker"
+                class="certification-image" />
+              <div class="certification-info">
+                <h3>Ethical Hacker</h3>
+                <p class="certification-description">
+                  Certificação em Ethical Hacking da Cisco Networking Academy, demonstrando habilidades em 
+                  identificação de vulnerabilidades de segurança, testes de penetração e implementação 
+                  de medidas de proteção contra ataques cibernéticos.
+                </p>
+                <div class="certification-meta">
+                  <span class="certification-provider">Cisco</span>
+                  <span class="certification-year">2025</span>
+                </div>
+                <div class="certification-verify">
+                  <a 
+                    href="https://www.credly.com/badges/66a009d1-3472-419d-9837-924d499b2570/public_url" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="btn-verify">
+                    <i class="bi bi-shield-check"></i>
+                    Verificar no Credly
+                  </a>
+                </div>
               </div>
             </div>
           </div>
