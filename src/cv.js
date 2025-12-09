@@ -107,7 +107,7 @@ export default {
                   {
         date: '12/2025',
         title: 'Curso Técnico',
-        detail: 'Curso Dominando o Linux e Shell Script para Pentesters- Solyd.one',
+        detail: 'curso Fundamentos de Criptografia e Senhas, cumprindo- Solyd.one',
       },
     ],
   },
