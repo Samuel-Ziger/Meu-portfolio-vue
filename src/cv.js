@@ -221,6 +221,18 @@ export default {
         title: 'GRIFERG CAMISAS',
         detail: 'E-commerce especializado em camisas de time oficiais e retrôs. <br /><a href = "https://vitrineprimerg1.web.app/" target="`_blanck"> Acessar Projeto</a>',
 
+      },
+      {
+        date: '2025',
+        title: 'ESSÊNCIA COSMÉTICOS',
+        detail: 'E-commerce especializado em cosméticos premium, com produtos para skincare, maquiagem e cuidados pessoais. <br /><a href = "https://essenciacosmeticosn.web.app/" target="`_blanck"> Acessar Projeto</a>',
+
+      },
+            {
+        date: '2025',
+        title: 'RedTeam-Essentials',
+        detail: 'RedTeam Essentials é um projeto focado em segurança ofensiva ética, unindo teoria, automação e práticas alinhadas ao MITRE ATT&CK. Oferece materiais e scripts validados para quem deseja evoluir do básico ao avançado. <br /><a href = "https://github.com/Samuel-Ziger/RedTeam-Essentials.git" target="`_blanck"> Acessar Projeto</a>',
+
       }
     ],
   },
