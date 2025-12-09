@@ -84,10 +84,30 @@ export default {
         title: 'Curso Técnico',
         detail: 'Introdução ao Pentest na Prática - Desec',
       },
-            {
+      {
         date: '09/2025',
         title: 'Curso Técnico',
         detail: 'Curso  Técnico de invasão a redes Sem fio [ Pentest Wireless ] - Udemy',
+      },
+      {
+        date: '10/2025',
+        title: 'Curso Técnico',
+        detail: ' Curso Introdução ao Hacking e Pentest 2.0 - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Fundamentos de Segurança da Informação e Pentest - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Dominando o Linux e Shell Script para Pentesters - Solyd.one',
+      },
+                  {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Dominando o Linux e Shell Script para Pentesters- Solyd.one',
       },
     ],
   },
