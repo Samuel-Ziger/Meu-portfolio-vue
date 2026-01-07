@@ -295,7 +295,7 @@ export default {
         title: 'RedTeam-Essentials',
         detail: 'RedTeam Essentials é um projeto focado em segurança ofensiva ética, unindo teoria, automação e práticas alinhadas ao MITRE ATT&CK. Oferece materiais e scripts validados para quem deseja evoluir do básico ao avançado. <br /><a href = "https://github.com/Samuel-Ziger/RedTeam-Essentials.git" target="`_blanck"> Acessar Projeto</a>',
 
-      }
+      },
       {
         date: '2026',
         title: 'Afinare Estética',
