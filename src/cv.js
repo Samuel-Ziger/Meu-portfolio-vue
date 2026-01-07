@@ -197,6 +197,11 @@ export default {
         title: 'A Divisão/Plano de Chamada',
         detail: 'Segurança Ofensiva e Pentest – Execução de testes controlados para validar a resiliência de sistemas contra ameaças externas e internas.',
       },
+      {
+        date: '2026 - ',
+        title: 'A Divisão/Plano de Chamada',
+        detail: 'Ministrei um Treinamento para 90+ colaboradores, abordando técnicas reais de engenharia social, phishing e conscientização em segurança da informação.',
+      },
     ],
   },
   prod: {
