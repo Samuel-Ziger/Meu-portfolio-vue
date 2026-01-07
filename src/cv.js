@@ -104,11 +104,68 @@ export default {
         title: 'Curso Técnico',
         detail: 'Curso Dominando o Linux e Shell Script para Pentesters - Solyd.one',
       },
-                  {
+      {
         date: '12/2025',
         title: 'Curso Técnico',
-        detail: 'curso Fundamentos de Criptografia e Senhas, cumprindo- Solyd.one',
+        detail: 'Curso Fundamentos de Criptografia e Senhas - Solyd.one',
       },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: ' Curso Introdução ao Python e Algoritmoso - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Python Orientado a Objetos - Solyd.one',
+      },
+            {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Fundamentos de Redes para Pentesters - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Dominando o Recon em Pentest - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Dominando o Pentest em Infraestrutura de Redes - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Ataques em Redes Wi-FI - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Técnicas de Phishing e Engenharia Social - Solyd.one',
+      },
+      {
+        date: '12/2025',
+        title: 'Curso Técnico',
+        detail: 'Curso Desenvolvimento de Malwares para Android - Solyd.one',
+      },
+      {
+        date: '01/2026',
+        title: 'Curso Técnico',
+        detail: 'Curso Ataques Denial of Service (DoS) e Botnets - Solyd.one',
+      },
+      {
+        date: '01/2026',
+        title: 'Curso Técnico',
+        detail: 'Curso Desenvolvimento Web para Pentesters - Solyd.one',
+      },
+      
+      {
+        date: '01/2026',
+        title: 'Curso Técnico',
+        detail: 'Curso Ataques em Aplicações Web - Solyd.one',
+      },
+      
     ],
   },
   exp: {
